@@ -1,0 +1,204 @@
+/*---------- Titulos - Parrafos ----------*/
+.intro {
+    h1 {
+        text-align: center;
+        font-size: $t-fuente_3 + 1rem;
+        color: $secondary-color;
+    }
+}
+
+.beneficios {
+    h1 {
+        text-align: center;
+        font-size: $t-fuente_3;
+        padding: $padding-1;
+        color: $primary-color;
+        margin-top: $margin-2 - 70px;
+    }
+
+    p {
+        text-align: center;
+        font-size: $t-fuente-1;
+        font-family: $gudea-font-family;
+    }
+}
+
+h2 {
+    @include flex-row-center;
+    font-size: $t-fuente_3 - 1rem;
+    color: $tertiary-color;
+}
+
+.yoga {
+    .cuerpo {
+        p {
+            font-size: $t-fuente-1;
+        }
+    }
+
+    .mente {
+        p {
+            font-size: $t-fuente-1;
+        }
+    }
+}
+
+.estilos {
+    h1 {
+        text-align: center;
+        font-size: $t-fuente_3;
+        padding: 5px;
+        color: $primary-color;
+    }
+
+    p {
+        text-align: center;
+        font-size: $t-fuente-1;
+    }
+}
+
+.consultas {
+    h1 {
+        text-align: center;
+        font-size: $t-fuente_3;
+        margin-top: $margin-2 - 75px;
+        color: $primary-color;
+    }
+
+    p {
+        text-align: center;
+        font-size: $t-fuente-2;
+    }
+}
+
+
+p {
+    font-size: $t-fuente-1;
+    font-family: $gudea-font-family;
+    padding: $padding-1;
+}
+
+.ubicacion {
+    p {
+        @include flex-row-center;
+        font-size: $t-fuente-2;
+        margin-top: $margin-2 - 90px;
+    }
+}
+
+.sobre-mi {
+    p {
+        font-size: $t-fuente-1;
+    }
+}
+.imagenes {
+    .row {
+        .col {
+            .card {
+                .card-body {
+                    .card-title {
+                        color: $primary-color;
+                        padding-top: $padding-1;
+                        font-size: $t-fuente-2;
+                    }
+
+                    .parrafo {
+                        text-align: center;
+                        font-size: $t-fuente_1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*---------- Imagenes ----------*/
+.imagenes {
+    padding: $padding-1;
+}
+
+/*---------- Contacto ----------*/
+.formulario {
+    margin: $margin-2 - 80px;
+}
+
+.mapa {
+    @include flex-row-center;
+}
+
+/*---------- Animaciones navbar - cards ----------*/
+.imagenes {
+    .row {
+        .col {
+            .card {
+                .card-img-top {
+                    -webkit-transition: all .9s ease;
+                    -moz-transition: all .9s ease;
+                    -o-transition: all .9s ease;
+                    -ms-transition: all .9s ease;
+                }
+            }
+        }
+    }
+}
+
+.imagenes {
+    .row {
+        .col {
+            .card:hover {
+                .card-img-top {
+                    opacity: 0.7;
+                    -webkit-transform: scale(1.15);
+                    -moz-transform: scale(1.15);
+                    -ms-transform: scale(1.15);
+                    -o-transform: scale(1.15);
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
+.imagenes {
+    .row {
+        .col {
+            .card {
+                background: #FFFFFF;
+                margin-top: 50px;
+                -webkit-transition: all 0.2s ease-in;
+                -moz-transition: all 0.2s ease-in;
+                -ms-transition: all 0.2s ease-in;
+                -o-transition: all 0.2s ease-in;
+                transition: all 0.2s ease-in;
+                box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+            }
+        }
+    }
+}
+
+.header {
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                animation-name: desplazarse;
+                position: relative;
+                animation-duration: 2.5s;
+                animation-timing-function: ease-in-out;
+                animation-direction: alternate-reverse;
+                animation-fill-mode: both;
+                animation-play-state: running;
+            }
+        }
+    }
+
+    @keyframes desplazarse {
+        from {
+            left: 0%;
+        }
+        
+        to {
+            left: 80%;
+        }
+    }
+}
+
