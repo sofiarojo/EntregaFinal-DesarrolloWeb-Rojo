@@ -132,6 +132,8 @@ p {
     .row {
         .col {
             .card {
+                position: relative;
+                overflow: hidden;
                 .card-body {
                     .card-title {
                         color: $primary-color;

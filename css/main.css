@@ -124,6 +124,10 @@ p {
   font-size: 1.2rem;
 }
 
+.imagenes .row .col .card {
+  position: relative;
+  overflow: hidden;
+}
 .imagenes .row .col .card .card-body .card-title {
   color: rgb(194, 104, 104);
   padding-top: 15px;
