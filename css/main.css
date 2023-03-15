@@ -68,6 +68,31 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 30px;
+}
+.clases .ashtanga {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+}
+.clases .integral {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+}
+.clases .vinyasa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+}
+.clases .terapeutico {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
 }
 
 .consultas h1 {
