@@ -44,16 +44,13 @@ h2 {
   justify-content: center;
   font-size: 2rem;
   color: rgb(166, 119, 219);
-  margin-top: 25px;
 }
 
 .yoga .cuerpo p {
   font-size: 1.2rem;
-  margin-top: 20px;
 }
 .yoga .mente p {
   font-size: 1.2rem;
-  margin-top: 25px;
 }
 
 .estilos h1 {
@@ -65,6 +62,12 @@ h2 {
 .estilos p {
   text-align: center;
   font-size: 1.2rem;
+}
+
+.clases .hatha {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .consultas h1 {
