@@ -421,6 +421,31 @@ footer {
     row-gap: auto;
     column-gap: 10px;
   }
+  .grid-container3 .clases .hatha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-container3 .clases .ashtanga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-container3 .clases .integral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-container3 .clases .vinyasa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-container3 .clases .terapeutico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*---------- Media Queries HTML - Horarios ----------*/
